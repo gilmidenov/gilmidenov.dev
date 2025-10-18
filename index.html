@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моё Портфолио</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/main.js"></script>
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <h1 class="logo">Gilmidenov Adilzhan</h1>
+        <nav class="nav">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#contacts">Contacts</a>
+        </nav>
+    </div>
+</header>
+
+<section class="hero">
+    <div class="container">
+        <h2 class="hero-title">Привет! Я - <span class="accent">PHP-разработчик</span></h2>
+        <p class="hero-subtitle">Рост начинается в точке сопротивления. Мы учимся, выталкивая себя за пределы наших способностей.</p>
+        <a href="#projects" class="btn">Мои проекты</a>
+    </div>
+</section>
+
+<section id="about" class="section about">
+    <div class="container">
+        <h2 class="section-title">Обо мне</h2>
+        <p class="section-text">
+            Меня зовут Адильжан, я PHP-разработчик, а также специализируюсь на JS.
+            Мне нравится работать со всем стеком: от написания кода бэкэнда и фронтэнда до настройки серверов,
+            управления развертыванием и оптимизации производительности во время выполнения.
+        </p>
+    </div>
+</section>
+
+<section id="skills" class="section skills">
+    <div class="container">
+        <h2 class="section-title">Навыки</h2>
+        <ul class="skills-list">
+            <li>PHP / Yii2 / Laravel</li>
+            <li>MySQL / PostgreSQL / Redis</li>
+            <li>HTML / CSS / JavaScript</li>
+            <li>Git / GitHub</li>
+            <li>Apache Kafka</li>
+        </ul>
+    </div>
+</section>
+
+<section id="projects" class="section projects">
+    <div class="container">
+        <h2 class="section-title">Проекты</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="assets/img/project1.png" alt="Проект 1">
+                <h3>Интернет магазин на Laravel 12 & Livewire 3</h3>
+                <p>Интернет-магазин с удобной системой каталога, корзиной, оплаты</p>
+                <a href="https://github.com/gilmidenov/laravel-eshop" class="btn btn-small">Смотреть</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contacts" class="section contacts">
+    <div class="container">
+        <h2 class="section-title">Контакты</h2>
+        <p>Напиши мне: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+        <p>Или найди меня на <a href="https://github.com/yourgithub" target="_blank">GitHub</a></p>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <p>2025. Все права защищены.</p>
+    </div>
+</footer>
+</body>
+</html>
