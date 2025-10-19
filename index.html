@@ -12,19 +12,21 @@
     <div class="container">
         <h1 class="logo">Gilmidenov Adilzhan</h1>
         <nav class="nav">
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#experience">Experience</a>
-            <a href="#projects">Projects</a>
-            <a href="#contacts">Contacts</a>
+            <a href="#about">Обо мне</a>
+            <a href="#skills">Навыки</a>
+            <a href="#experience">Опыт</a>
+            <a href="#projects">Проекты</a>
+            <a href="#contacts">Контакты</a>
+
         </nav>
     </div>
 </header>
 
 <section class="hero">
     <div class="container">
-        <h2 class="hero-title">Привет! Я - <span class="accent">PHP-разработчик</span></h2>
-        <p class="hero-subtitle">Рост начинается в точке сопротивления. Мы учимся, выталкивая себя за пределы наших способностей.</p>
+        <p class="hero-subtitle">Меня зовут Адильжан</p>
+        <h2 class="hero-title">Я - <span class="accent">PHP-разработчик</span></h2>
+        <p class="hero-subtitle">PHP / Yii2 / Laravel / JS</p>
         <a href="#projects" class="btn">Мои проекты</a>
     </div>
 </section>
@@ -33,9 +35,8 @@
     <div class="container">
         <h2 class="section-title">Обо мне</h2>
         <p class="section-text">
-            Меня зовут Адильжан, я PHP-разработчик, а также специализируюсь на JS.
-            Мне нравится работать со всем стеком: от написания кода бэкэнда и фронтэнда до настройки серверов,
-            управления развертыванием и оптимизации производительности во время выполнения.
+            Я Backend-разработчик, который стремится стать полноценным Full-stack специалистом.
+            Мне нравится видеть проект целиком - разрабатывать как backend, так и frontend, чтобы создавать целостные и продуманные решения
         </p>
     </div>
 </section>
@@ -45,6 +46,7 @@
         <h2 class="section-title">Навыки</h2>
         <ul class="skills-list">
             <li>PHP / Yii2 / Laravel</li>
+            <li>Python / Django</li>
             <li>MySQL / PostgreSQL / Redis</li>
             <li>HTML / CSS / JavaScript</li>
             <li>Git / GitHub</li>
@@ -53,16 +55,126 @@
     </div>
 </section>
 
+<section id="experience" class="section experience">
+    <div class="container">
+        <h2 class="section-title">Опыт</h2>
+        <div class="experience-list">
+            <div class="experience-item">
+                <div class="exp-left">
+                    <h3 class="exp-company">DNS Kazakhstan</h3>
+                    <span class="exp-period"></span>
+                </div>
+                <div class="exp-right">
+                    <h4 class="exp-position">Full-stack Разработчик</h4>
+                    <p class="exp-description">
+                        Разработка и поддержка клиентской части веб-приложения
+                        Интеграции со сторонними API (Jusan Bank, Bereke Bank, Brokerage)
+                        Работа с брокером сообщений Apache Kafka
+                    </p>
+                </div>
+            </div>
+
+            <div class="experience-item">
+                <div class="exp-left">
+                    <h3 class="exp-company">TOO «Documentolog»</h3>
+                    <span class="exp-period"></span>
+                </div>
+                <div class="exp-right">
+                    <h4 class="exp-position">Backend-разработчик</h4>
+                    <p class="exp-description">
+                        Реализация нового функционала с использованием JavaScript, jQuery и работы с DOM-структурой документа.
+                        Написание и оптимизация callback-скриптов для взаимодействия с формами, справочниками и переменными.
+                        Оптимизация запросов в базы данных.
+                        Дежурство и устранение багов в системе.
+                    </p>
+                </div>
+            </div>
+
+            <div class="experience-item">
+                <div class="exp-left">
+                    <h3 class="exp-company">BazarBay</h3>
+                    <span class="exp-period"></span>
+                </div>
+                <div class="exp-right">
+                    <h4 class="exp-position">Backend-разработчик</h4>
+                    <p class="exp-description">
+                        Разработка и поддержка серверной логики на PHP для внутреннего и внешнего API.
+                        Интеграция с Redis для хранения и обработки оперативных данных (например, цен товаров, авторизация, кэширование)
+                        Автоматизация логики через cron-скрипты (в том числе для обновления цен и данных товаров)
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section id="projects" class="section projects">
     <div class="container">
         <h2 class="section-title">Проекты</h2>
         <div class="projects-grid">
             <div class="project-card">
-                <img src="assets/img/project1.png" alt="Проект 1">
-                <h3>Интернет магазин на Laravel 12 & Livewire 3</h3>
-                <p>Интернет-магазин с удобной системой каталога, корзиной, оплаты</p>
+                <div class="project-slider">
+                    <div class="slides">
+                        <img src="assets/img/proj1.png" alt="Скриншот 1">
+                        <img src="assets/img/proj1.2.png" alt="Скриншот 2">
+                    </div>
+
+                    <button class="slide-btn prev">‹</button>
+                    <button class="slide-btn next">›</button>
+                </div>
+
+                <h3 class="exp-company">Интернет магазин</h3>
+                <p>С удобной системой каталога, корзиной, оплаты написаны на Laravel 12, а для того, чтобы сделать его динамичным использовал Livewire.</p>
                 <a href="https://github.com/gilmidenov/laravel-eshop" class="btn btn-small">Смотреть</a>
             </div>
+
+            <div class="project-card">
+                <div class="project-slider">
+                    <div class="slides">
+                        <img src="assets/img/proj2.1.png" alt="Скриншот 2">
+                    </div>
+
+                    <button class="slide-btn prev">‹</button>
+                    <button class="slide-btn next">›</button>
+                </div>
+
+                <h3 class="exp-company">GreenApi (Python).</h3>
+                <p>В рамках выполнения теста необходимо было разработать HTML-страницу с методами GREEN-API.</p>
+                <a href="https://github.com/gilmidenov/GreenApi/tree/master" class="btn btn-small">Смотреть</a>
+            </div>
+
+            <div class="project-card">
+                <div class="project-slider">
+                    <div class="slides">
+                        <img src="assets/img/proj3.png" alt="Скриншот 1">
+                    </div>
+
+                    <button class="slide-btn prev">‹</button>
+                    <button class="slide-btn next">›</button>
+                </div>
+
+                <h3 class="exp-company">Brain Games</h3>
+                <p>Набор консольных игр для тренировки мозга. В процессе разработки изучены и применены стандарты PSR-1 и PSR-12, механизмы автозагрузки файлов, импорт функций и работа с PHP CLI Tools.</p>
+                <a href="https://github.com/gilmidenov/php-project-45/tree/main" class="btn btn-small">Смотреть</a>
+            </div>
+
+
+            <div class="project-card">
+                <div class="project-slider">
+                    <div class="slides">
+                        <img src="assets/img/img_1.png" alt="Скриншот 1">
+                        <img src="assets/img/img.png" alt="Скриншот 2">
+                    </div>
+
+                    <button class="slide-btn prev">‹</button>
+                    <button class="slide-btn next">›</button>
+                </div>
+
+                <h3 class="exp-company">Grid на Bitrix D7</h3>
+                <p>Файла test_for_grid.csv строится табличный интерфейс через main.ui.grid, а для поиска/фильтрации реализован main.ui.filter.</p>
+                <a href="https://github.com/gilmidenov/bitrix/tree/master" class="btn btn-small">Смотреть</a>
+            </div>
+
         </div>
     </div>
 </section>
@@ -70,8 +182,8 @@
 <section id="contacts" class="section contacts">
     <div class="container">
         <h2 class="section-title">Контакты</h2>
-        <p>Напиши мне: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
-        <p>Или найди меня на <a href="https://github.com/yourgithub" target="_blank">GitHub</a></p>
+        <p><a href="mailto:gilmidenov.ad@gmail.com">gilmidenov.ad@gmail.com</a></p>
+        <p><a href="https://github.com/gilmidenov" target="_blank">GitHub</a></p>
     </div>
 </section>
 
