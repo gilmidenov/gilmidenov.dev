@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Моё Портфолио</title>
+    <title>Портфолио</title>
     <link rel="stylesheet" href="css/style.css">
     <script defer src="js/main.js"></script>
 </head>
@@ -66,11 +66,11 @@
                 </div>
                 <div class="exp-right">
                     <h4 class="exp-position">Full-stack Разработчик</h4>
-                    <p class="exp-description">
-                        Разработка и поддержка клиентской части веб-приложения
-                        Интеграции со сторонними API (Jusan Bank, Bereke Bank, Brokerage)
-                        Работа с брокером сообщений Apache Kafka
-                    </p>
+                    <div class="exp-description">
+                        <p>Разработка и поддержка клиентской части веб-приложения.</p>
+                        <p>Интеграции со сторонними API (Jusan Bank, Bereke Bank, Brokerage).</p>
+                        <p>Работа с брокером сообщений Apache Kafka.</p>
+                    </div>
                 </div>
             </div>
 
@@ -81,12 +81,12 @@
                 </div>
                 <div class="exp-right">
                     <h4 class="exp-position">Backend-разработчик</h4>
-                    <p class="exp-description">
-                        Реализация нового функционала с использованием JavaScript, jQuery и работы с DOM-структурой документа.
-                        Написание и оптимизация callback-скриптов для взаимодействия с формами, справочниками и переменными.
-                        Оптимизация запросов в базы данных.
-                        Дежурство и устранение багов в системе.
-                    </p>
+                    <div class="exp-description">
+                        <p>Реализация нового функционала с использованием JavaScript, jQuery и работы с DOM-структурой документа.</p>
+                        <p>Написание и оптимизация callback-скриптов для взаимодействия с формами, справочниками и переменными.</p>
+                        <p>Оптимизация запросов в базы данных.</p>
+                        <p>Дежурство и устранение багов в системе.</p>
+                    </div>
                 </div>
             </div>
 
@@ -97,11 +97,11 @@
                 </div>
                 <div class="exp-right">
                     <h4 class="exp-position">Backend-разработчик</h4>
-                    <p class="exp-description">
-                        Разработка и поддержка серверной логики на PHP для внутреннего и внешнего API.
-                        Интеграция с Redis для хранения и обработки оперативных данных (например, цен товаров, авторизация, кэширование)
-                        Автоматизация логики через cron-скрипты (в том числе для обновления цен и данных товаров)
-                    </p>
+                    <div class="exp-description">
+                        <p>Разработка и поддержка серверной логики на PHP для внутреннего и внешнего API.</p>
+                        <p>Интеграция с Redis для хранения и обработки оперативных данных (например, цен товаров, авторизация, кэширование)</p>
+                        <p>Автоматизация логики через cron-скрипты (в том числе для обновления цен и данных товаров)</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -115,8 +115,9 @@
             <div class="project-card">
                 <div class="project-slider">
                     <div class="slides">
-                        <img src="assets/img/proj1.png" alt="Скриншот 1">
-                        <img src="assets/img/proj1.2.png" alt="Скриншот 2">
+                        <img src="assets/img/image_2025-10-20_09-30-04.png" alt="Скриншот 1">
+                        <img src="assets/img/image_2025-10-20_09-30-06.png" alt="Скриншот 2">
+                        <img src="assets/img/image_2025-10-20_09-30-07.png" alt="Скриншот 3">
                     </div>
 
                     <button class="slide-btn prev">‹</button>
@@ -124,7 +125,7 @@
                 </div>
 
                 <h3 class="exp-company">Интернет магазин</h3>
-                <p>С удобной системой каталога, корзиной, оплаты написаны на Laravel 12, а для того, чтобы сделать его динамичным использовал Livewire.</p>
+                <p>С удобной системой каталога, корзиной. Написан на Laravel 12 & Livewire 3.</p>
                 <a href="https://github.com/gilmidenov/laravel-eshop" class="btn btn-small">Смотреть</a>
             </div>
 
@@ -139,7 +140,7 @@
                 </div>
 
                 <h3 class="exp-company">GreenApi (Python).</h3>
-                <p>В рамках выполнения теста необходимо было разработать HTML-страницу с методами GREEN-API.</p>
+                <p> Реализация интеграции с GREEN-API.</p>
                 <a href="https://github.com/gilmidenov/GreenApi/tree/master" class="btn btn-small">Смотреть</a>
             </div>
 
@@ -154,10 +155,10 @@
                 </div>
 
                 <h3 class="exp-company">Brain Games</h3>
-                <p>Набор консольных игр для тренировки мозга. В процессе разработки изучены и применены стандарты PSR-1 и PSR-12, механизмы автозагрузки файлов, импорт функций и работа с PHP CLI Tools.</p>
+                <p>Набор консольных игр для тренировки мозга.</p>
+                <p>В процессе разработки изучены и применены стандарты PSR-1 и PSR-12, механизмы автозагрузки файлов, импорт функций и работа с PHP CLI Tools.</p>
                 <a href="https://github.com/gilmidenov/php-project-45/tree/main" class="btn btn-small">Смотреть</a>
             </div>
-
 
             <div class="project-card">
                 <div class="project-slider">
@@ -171,10 +172,9 @@
                 </div>
 
                 <h3 class="exp-company">Grid на Bitrix D7</h3>
-                <p>Файла test_for_grid.csv строится табличный интерфейс через main.ui.grid, а для поиска/фильтрации реализован main.ui.filter.</p>
+                <p> PHP-скрипт загружает данные из CSV-файла и отображает их в виде интерактивной таблицы (грида) Bitrix с возможностью фильтрации по статусу, типу и длительности звонка.</p>
                 <a href="https://github.com/gilmidenov/bitrix/tree/master" class="btn btn-small">Смотреть</a>
             </div>
-
         </div>
     </div>
 </section>
